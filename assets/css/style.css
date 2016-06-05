@@ -1,0 +1,84 @@
+/*Custom*/
+.clear{
+  clear: both;
+}
+.nopadding{
+  padding: 0;
+}
+.nomargin{
+  margin: 0;
+}
+
+/* Override CSS */
+
+body{
+  font-size: 0.8em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+label{
+  font-weight: 700;
+}
+.update{
+  margin-top: 25px;
+}
+input.login{
+  padding: 19px !important;
+}
+input.input-text{
+  padding: 14px !important;
+}
+span.add-on{
+  padding: 4px 12px !important;
+}
+/* Content */
+
+.mainHeader{
+  background-color: #d1d1d1;
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+header{
+  float: right;
+}
+header input{
+    margin-bottom: 10px !important;
+}
+.row{
+  margin-bottom: 40px;
+  margin-left: 0 !important;
+}
+.third-row{
+  padding-top: 20px;
+}
+.container{
+  padding-top: 40px
+}
+
+/* Table */
+.table-content{
+  border-top: 1px solid grey;
+}
+tr:nth-child(even) {
+  background: #ebebeb;
+}
+tr:nth-child(odd) {
+  background: #FFF
+}
+th:first-child, td:first-child{
+  padding: 10px;
+}
+table {
+  width: 100%;
+}
+th.bio_name{
+  width: 45.5%;
+}
+th.acno{
+  width: 34%;
+}
+th.from, th.date {
+  width: 20%;
+}

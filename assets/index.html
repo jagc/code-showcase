@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+  	<title>SUFFER</title>
+	<meta name="description" content="Search Update Fix From Error Records">
+	<meta name="author" content="SUFFERing team">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen"
+     href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="nopadding ">
+	<div class="mainHeader">
+	    <header>
+	      	<input type="text" class="login">
+	      	<input class="button-primary" type="submit" value="Log-in">
+	    </header>
+		<div class="clear"></div>
+    </div>
+
+    <div class="container">
+	    <form>
+	        <div class="row">
+	        	<div class="first-row">
+			        <div class="six columns">
+			            <div class="ac">
+			                <label>AC No.</label>
+			                <input class="input-text u-full-width" type="email" placeholder=" " id="exampleEmailInput">
+			            </div>
+			        </div>
+			        <div class="six columns">
+			            <div class="update">
+			               <label class="six columns example-send-yourself-copy">
+							    <input type="checkbox">
+							    <span class="label-body">Update records before search</span>
+							</label>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="clear"></div>
+
+			    <div class="second-row">
+			        <div class="six columns">
+			            <div class="date">
+			                <label for="datepicker">From:</label>
+
+			                <!-- From -->
+			                <div id="datetimepicker" class="input-append date">
+						      <input type="text" class="eleven columns input-text"></input>
+						      <span class="add-on">
+						        <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+						      </span>
+						    </div>
+						    <script type="text/javascript"
+						     src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+						    </script>
+						    <script type="text/javascript"
+						     src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+						    </script>
+						    <script type="text/javascript"
+						     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+						    </script>
+						    <script type="text/javascript"
+						     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+						    </script>
+						    <script type="text/javascript">
+						      $('#datetimepicker').datetimepicker({
+						        format: 'dd/MM/yyyy hh:mm:ss',
+						        language: 'pt-BR'
+						      });
+						    </script>
+			            </div>
+			        </div>
+			        <div class="six columns">
+			            <div class="date">
+			                <label for="datepicker">To:</label>
+			                <!-- To -->
+			                <div id="datetimepicker2" class="input-append date">
+						      <input type="text" class="eleven columns input-text"></input>
+						      <span class="add-on">
+						        <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+						      </span>
+						    </div>
+						    <script type="text/javascript"
+						     src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+						    </script>
+						    <script type="text/javascript"
+						     src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+						    </script>
+						    <script type="text/javascript"
+						     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+						    </script>
+						    <script type="text/javascript"
+						     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+						    </script>
+						    <script type="text/javascript">
+						      $('#datetimepicker2').datetimepicker({
+						        format: 'dd/MM/yyyy hh:mm:ss',
+						        language: 'pt-BR'
+						      });
+						    </script>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="clear"></div>
+
+			    <div class="third-row">
+					<input class="three columns button-primary" type="submit" value="Submit">
+					<div class="loader"></div>
+				</div>
+				<div class="clear"></div>
+		    </div> <!-- row -->
+	    </form>
+
+      <div class="table-content">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th class="acno">AC no</th>
+              <th class="ltime">Log Time</th>
+              <th class="ltype">Log Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0909857548</td>
+              <td>2016-02-10 05:01:45</td>
+              <td>C/Out</td>
+            </tr>
+            <tr>
+              <td>09098</td>
+              <td>2016-02-10 05:01:45</td>
+              <td>C/Out</td>
+            </tr>
+            <tr>
+              <td>09098</td>
+              <td>2016-02-10 05:01:45</td>
+              <td>C/Out</td>
+            </tr>
+            <tr>
+              <td>09098</td>
+              <td>2016-02-10 05:01:45</td>
+              <td>C/Out</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+ </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
