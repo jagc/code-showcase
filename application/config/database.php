@@ -5,7 +5,7 @@
   // dev localhost
   if(Flight::get('active_database_connection') == 'default')
   {
-    Flight::set('database_name', 'suffer_raw');
+    Flight::set('database_name', 'raw');
     Flight::set('server'       , 'localhost');
     Flight::set('username'     , 'root');
     Flight::set('password'     , 'mysql');
@@ -21,7 +21,7 @@
 
   if(Flight::get('active_database_connection') == 'stage-server')
   {
-    Flight::set('database_name', 'suffer_raw');
+    Flight::set('database_name', 'raw');
     Flight::set('server'       , 'localhost');
     Flight::set('username'     , 'root');
     Flight::set('password'     , 'qwerty321');
